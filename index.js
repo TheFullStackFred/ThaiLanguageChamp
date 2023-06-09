@@ -1,3 +1,5 @@
 import { data } from './data.js'
 
-console.log(data)
+data.forEach(function (question) {
+  console.log(question)
+})
