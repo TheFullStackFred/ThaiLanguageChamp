@@ -141,7 +141,7 @@ export const data = [
     optionTwo: 'Jai-kao',
     optionThree: 'Kaokao',
     optionFour: 'Mai kao-jai',
-    answer: 'Mai ruu'
+    answer: 'Mai kao-jai'
   },
   {
     question: 'How to say I can speak Thai a little bit',

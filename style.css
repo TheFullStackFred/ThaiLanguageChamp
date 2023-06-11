@@ -12,6 +12,7 @@
 
 body {
   min-height: 100vh;
+  background: #edf2f8;
   font-family: 'Noto Sans Thai', sans-serif;
   line-height: 1.5rem;
   display: grid;
@@ -72,9 +73,33 @@ main {
 
 .card {
   padding: 1.5em;
-  border: 1px solid #888888;
+  border: 2px solid #888888;
   border-radius: 8px;
   text-align: center;
+  cursor: pointer;
+}
+
+.correct {
+  color: rgb(173, 255, 47);
+}
+
+.wrong {
+  color: rgb(237, 30, 54);
+}
+
+.correct,
+.wrong {
+  text-align: center;
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px black;
+}
+
+.next-question-btn {
+  padding: 1.5em;
+  border: 2px solid #888888;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
 }
 
 footer {
