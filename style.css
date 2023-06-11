@@ -25,7 +25,7 @@ header {
   box-shadow: 0 5px 10px #888888;
 }
 
-.header-image {
+.header__image {
   width: 3rem;
   height: 3rem;
   margin-left: auto;
@@ -36,4 +36,47 @@ main,
 footer {
   grid-column: 1/-1;
   padding: 1.25em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__container {
+  display: grid;
+  grid-template-rows: (5, 1fr);
+  gap: 1em;
+}
+
+.main__question {
+  grid-row: 1;
+  text-align: center;
+}
+
+.card:nth-of-type(1) {
+  grid-row: 2;
+}
+.card:nth-of-type(2) {
+  grid-row: 3;
+}
+.card:nth-of-type(3) {
+  grid-row: 4;
+}
+
+.card:nth-of-type(4) {
+  grid-row: 5;
+}
+
+.card {
+  padding: 1.5em;
+  border: 1px solid #888888;
+  border-radius: 8px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
 }
